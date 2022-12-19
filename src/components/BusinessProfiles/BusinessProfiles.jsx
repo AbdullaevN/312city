@@ -7,14 +7,23 @@ export const BusinessProfiles = () => {
   return (
     <>
       {/* min-h-screen gap-16 */}
-      <div className="flex justify-between items-center p-4">
+      {/* <div className="flex justify-between items-center p-4">
         <h2>БИЗНЕС-ПРОФИЛИ</h2>
         <div className="flex justify-center">
           <span>Все профили</span>
           <img src={arrowOrange} className="object-contain" alt="" />
         </div>
+      </div> */}
+
+      <div className="py-5 flex justify-between font-nunito">
+        <span className="font-semibold">БИЗНЕС-ПРОФИЛИ</span>
+        <div className="flex">
+          <span className="text-[#FF961F] font-bold">Все профили</span>
+          <img src={arrowOrange} className="object-contain" alt="" />
+        </div>
       </div>
-      <div className="p-6 bg-purple-100 flex flex-col md:flex-row justify-center items-center ">
+
+      <div className="p-6  flex flex-col md:flex-row justify-center items-center ">
         <div className="bg-white shadow-md w-52 overflow-hidden rounded-2xl">
           <div className="relative ">
             <img

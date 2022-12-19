@@ -127,11 +127,11 @@ export const Footer = () => {
               </ul>
             </div>
             <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
-              <h5 className="text-xl font-700 mb-6">МЫ В СОЦ.СЕТЯХ</h5>
+              <h5 className="text-xl font-bold mb-6">МЫ В СОЦ.СЕТЯХ</h5>
               <ul className="list-none footer-links">
                 <li className="mb-2">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/city_312_kg/"
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     INSAGRAM

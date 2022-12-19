@@ -1,0 +1,13 @@
+.btn {
+  color: white;
+}
+
+.fa-arrow-left:before,
+.fa-arrow-right:before {
+  color: white;
+}
+
+.card {
+  padding: 0.5em;
+  border: none;
+}

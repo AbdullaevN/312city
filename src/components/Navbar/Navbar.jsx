@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="flex justify-center items-center py-1 ">
             <label className="relative flex justify-end flex-row items-center !mb-0">
               <input
-                className="  placeholder:text-[#999999] block bg-[#F5F8F9]  md:w-[50rem]  border-none rounded-full py-2 pl-4 !pr-0 shadow-sm focus:outline-none  sm:text-sm text-[#999999]"
+                className="  placeholder:text-[#999999] block bg-[#F5F8F9]  md:w-[30rem]  border-none rounded-full py-2 pl-4 !pr-0 shadow-sm focus:outline-none  sm:text-sm text-[#999999]"
                 placeholder="Поиск..."
                 type="text"
                 name="search"
