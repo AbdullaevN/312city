@@ -9,7 +9,7 @@ export const Recommendation = () => {
   return (
     <>
       {/* pt-5 pb-5 */}
-      <section className="">
+      <section className="bg-[#DCE1EB]">
         <div className="px-3">
           <div className="py-2 flex justify-between font-nunito">
             <h3 className="font-semibold">БИЗНЕС-ПРОФИЛИ</h3>

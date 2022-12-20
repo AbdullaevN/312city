@@ -7,7 +7,7 @@ import "./Nedvijimost.css";
 
 export const Nedvijimost = () => {
   return (
-    <section className="">
+    <section className="bg-[#DCE1EB]">
       <div className="px-3">
         <div className="py-2 flex justify-between font-nunito">
           <h3 className="font-semibold">БИЗНЕС-ПРОФИЛИ</h3>

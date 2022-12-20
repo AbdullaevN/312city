@@ -69,10 +69,6 @@ export const FormDefault = ({ title, handleClick }) => {
             <Link to={"/sign-up"} className="font-medium text-indigo-500">
               Создать аккаунт
             </Link>
-
-            {/* <a href="#" className="text-gray-600">
-                Forgot password?
-              </a> */}
           </div>
         </div>
       </div>

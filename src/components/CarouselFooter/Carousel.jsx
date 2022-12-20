@@ -3,6 +3,7 @@ import React from "react";
 import photoOne from "../../assets/img/sliderM.jpg";
 import star from "../../assets/img/star.png";
 // import sliderM from '../../assets/img/sliderM.png'
+import play from "../../assets/img/play.png";
 
 export const CarouselFooter = () => {
   return (
@@ -127,7 +128,7 @@ export const CarouselFooter = () => {
 
         <div className="carousel-inner relative overflow-hidden ">
           <div className="carousel-item active relative float-left w-full ">
-            <div className={`flex justify-evenly bg-yellow py-10`}>
+            <div className={`flex justify-evenly bg-yellow py-10 bg-dark`}>
               <div className=" flex  w-6/12">
                 <div className="py-3">
                   <h1>
@@ -143,12 +144,16 @@ export const CarouselFooter = () => {
                     sadosm. Vigon senogt, prenona. Hexasobel miger. Pode.
                     Antinde behörat.
                   </p>
+                  <button>
+                    СМОТРЕТЬ ТРЕЙЛЕР
+                    <img src={play} alt="" />
+                  </button>
                 </div>
               </div>
               <div className="w-6/12  leading-10 font-black flex  text-xl  md:flex md:justify-center flex-col text-white text-center ">
                 <p
                   className="
-                   md:text-8xl  text-3xl "
+                   md:text-xl  text-3xl "
                 >
                   tdryfguhi
                 </p>
