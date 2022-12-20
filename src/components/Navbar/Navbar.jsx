@@ -4,15 +4,19 @@ import noti from "../../assets/img/not.svg";
 import avatar from "../../assets/img/avatar.png";
 import cloud from "../../assets/img/cloud.png";
 import searchl from "../../assets/img/search.png";
+import { Link } from "react-router-dom";
+import { NotificationPopup } from "../notificationPopup/notificationPopup";
 
-const Navbar = () => {
+export const Navbar = () => {
   // const url =
 
   return (
     <>
       <div className="flex justify-around items-center p-[1rem]">
         <div>
-          <img src={logo} alt="" />
+          <Link to={"/"}>
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <div className="flex">
           <div className="flex justify-center items-center py-1 ">
@@ -37,7 +41,11 @@ const Navbar = () => {
             <span>11°</span>
           </div>
           <div className="px-4">
-            <img src={noti} alt="" />
+            <button>
+              {/* <Link> */}
+              <img src={noti} alt="" />
+              {/* </Link> */}
+            </button>
           </div>
 
           <div>
@@ -48,4 +56,4 @@ const Navbar = () => {
     </>
   );
 };
-export default Navbar;
+// export default Navbar;

@@ -38,7 +38,7 @@ export const Nedvijimost = () => {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="row">
-                    <div className="col-md-4 mb-3">
+                    <div className="col-md-3 mb-3">
                       <div className="card">
                         <img
                           className="img-fluid rounded-lg"
@@ -63,7 +63,7 @@ export const Nedvijimost = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-md-3 mb-3">
                       <div className="card">
                         <img
                           className="img-fluid rounded-lg"
@@ -88,7 +88,34 @@ export const Nedvijimost = () => {
                         </div>
                       </div>
                     </div>{" "}
-                    <div className="col-md-4 mb-3">
+                    {/*  */}
+                    <div className="col-md-3 mb-3">
+                      <div className="card">
+                        <img
+                          className="img-fluid rounded-lg"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
+                        />
+                        <div className="card-body">
+                          <h4 className="card-title flex place-content-start font-bold">
+                            Кофейня №1
+                          </h4>
+                          <span className="flex place-content-start text-sm">
+                            Деловой партнер
+                          </span>
+                          <p className="card-text flex justify-between items-center">
+                            <button className="bg-[#FF961F] rounded-full h-8 text-white flex items-center">
+                              Смотреть
+                            </button>
+                            <button>
+                              <img src={call} alt="" />
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    {/*  */}
+                    <div className="col-md-3 mb-3">
                       <div className="card">
                         <img
                           className="img-fluid rounded-lg"
@@ -115,9 +142,9 @@ export const Nedvijimost = () => {
                     </div>
                   </div>
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item ">
                   <div className="row">
-                    <div className="col-md-4 mb-3">
+                    <div className="col-md-3 mb-3">
                       <div className="card">
                         <img
                           className="img-fluid rounded-lg"
@@ -142,7 +169,33 @@ export const Nedvijimost = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4 mb-3">
+                    <div className="col-md-3 mb-3">
+                      <div className="card">
+                        <img
+                          className="img-fluid rounded-lg"
+                          alt="100%x280"
+                          src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
+                        />
+                        <div className="card-body">
+                          <h4 className="card-title flex place-content-start font-bold">
+                            Кофейня №1
+                          </h4>
+                          <span className="flex place-content-start text-sm">
+                            Деловой партнер
+                          </span>
+                          <p className="card-text flex justify-between items-center">
+                            <button className="bg-[#FF961F] rounded-full h-8 text-white flex items-center">
+                              Смотреть
+                            </button>
+                            <button>
+                              <img src={call} alt="" />
+                            </button>
+                          </p>
+                        </div>
+                      </div>
+                    </div>{" "}
+                    {/*  */}
+                    <div className="col-md-3 mb-3">
                       <div className="card">
                         <img
                           className="img-fluid rounded-lg"
@@ -167,86 +220,8 @@ export const Nedvijimost = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4 mb-3">
-                      <div className="card">
-                        <img
-                          className="img-fluid rounded-lg"
-                          alt="100%x280"
-                          src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
-                        />
-                        <div className="card-body">
-                          <h4 className="card-title flex place-content-start font-bold">
-                            Кофейня №1
-                          </h4>
-                          <span className="flex place-content-start text-sm">
-                            Деловой партнер
-                          </span>
-                          <p className="card-text flex justify-between items-center">
-                            <button className="bg-[#FF961F] rounded-full h-8 text-white flex items-center">
-                              Смотреть
-                            </button>
-                            <button>
-                              <img src={call} alt="" />
-                            </button>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="carousel-item">
-                  <div className="row">
-                    <div className="col-md-4 mb-3">
-                      <div className="card">
-                        <img
-                          className="img-fluid rounded-lg"
-                          alt="100%x280"
-                          src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
-                        />
-                        <div className="card-body">
-                          <h4 className="card-title flex place-content-start font-bold">
-                            Кофейня №1
-                          </h4>
-                          <span className="flex place-content-start text-sm">
-                            Деловой партнер
-                          </span>
-                          <p className="card-text flex justify-between items-center">
-                            <button className="bg-[#FF961F] rounded-full h-8 text-white flex items-center">
-                              Смотреть
-                            </button>
-                            <button>
-                              <img src={call} alt="" />
-                            </button>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 mb-3">
-                      <div className="card">
-                        <img
-                          className="img-fluid rounded-lg"
-                          alt="100%x280"
-                          src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d"
-                        />
-                        <div className="card-body">
-                          <h4 className="card-title flex place-content-start font-bold">
-                            Кофейня №1
-                          </h4>
-                          <span className="flex place-content-start text-sm">
-                            Деловой партнер
-                          </span>
-                          <p className="card-text flex justify-between items-center">
-                            <button className="bg-[#FF961F] rounded-full h-8 text-white flex items-center">
-                              Смотреть
-                            </button>
-                            <button>
-                              <img src={call} alt="" />
-                            </button>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4 mb-3">
+                    {/*  */}
+                    <div className="col-md-3 mb-3">
                       <div className="card">
                         <img
                           className="img-fluid rounded-lg"

@@ -38,6 +38,8 @@ export const BusinessProfiles = () => {
           </div>
         </div>
         {/*  */}
+
+        {/*  */}
         <div className="bg-white shadow-md w-52 overflow-hidden rounded-2xl">
           <div className="relative">
             <img

@@ -13,7 +13,7 @@ export const HomePage = () => {
       <Recommendation />
 
       <Nedvijimost />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

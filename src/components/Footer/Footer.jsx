@@ -1,9 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import footerLogo from "../../assets/img/footer-logo.png";
+import { CarouselFooter } from "../CarouselFooter/Carousel";
 
 export const Footer = () => {
   return (
     <>
+      <CarouselFooter />
       <footer className="footer-1 bg-gray-100 py-8 sm:py-12 bg-[#111111] text-white">
         <div className="container mx-auto px-4">
           <div className="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
@@ -11,7 +14,9 @@ export const Footer = () => {
               <h5 className="text-xl font-bold mb-6"></h5>
               <ul className="list-none footer-links">
                 <li className="mb-2">
-                  <img src={footerLogo} alt="" />
+                  <Link to={"/"}>
+                    <img src={footerLogo} alt="" />
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -19,36 +24,36 @@ export const Footer = () => {
               <h5 className="text-xl font-bold mb-6">О ПОРТАЛЕ</h5>
               <ul className="list-none footer-links font-light">
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/about"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     О НАС
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/privacy-policy"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/processing-data"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     ОБРАБОТКА ПЕРСОНАЛЬНЫХ ДАННЫХ
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/about-portal"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     О ПОРТАЛЕ
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -56,36 +61,36 @@ export const Footer = () => {
               <h5 className="text-xl font-bold mb-6">ПОЛЬЗОВАТЕЛЯМ</h5>
               <ul className="list-none footer-links">
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/city-organization"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     ОРГАНИЗАЦИЯ ГОРОДА
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/article"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     ИНТЕРЕСНЫЕ СТАТЬИ
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/news"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     НОВОСТИ ГОРОДА
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/attractions"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     ДОСТОПРИМЕЧАТЕЛЬНОСТИ
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -93,36 +98,36 @@ export const Footer = () => {
               <h5 className="text-xl font-bold mb-6">ПАРТНЕРАМ</h5>
               <ul className="list-none footer-links">
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/paid"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     ПЛАТНОЕ РАЗМЕЩЕНИЕ
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     РЕКЛАМА НА САЙТЕ
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/cooperation"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     СОТРУДНИЧЕСТВО
-                  </a>
+                  </Link>
                 </li>
                 <li className="mb-2">
-                  <a
-                    href="#"
+                  <Link
+                    to={"/contacts"}
                     className="font-light text-xs not-italic	 border-b border-solid border-transparent hover:border-purple-800 text-white hover:text-white"
                   >
                     КОНТАКТЫ
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
